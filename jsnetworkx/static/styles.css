@@ -1,0 +1,187 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #fbfbfb !important;
+}
+
+.nav-heading {
+  font-weight: 600;
+  font-size: 105%;
+  margin-bottom: 10px;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -60px;
+}
+
+#push, #footer {
+  height: 60px;
+}
+
+#footer {
+  background-color: #eaeaea;
+}
+
+#footer .credit {
+  margin: 20px 0;
+}
+
+#header {
+  position: relative;
+  padding: 40px 0px;
+  padding-top: 80px;
+  color: #f7f7f7;
+  background-color: #202020;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+body.sub #header {
+  color: #555;
+  padding: 20px 0px;
+  padding-top: 60px;
+  background-color: #fff;
+}
+
+body.sub #header h1 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: normal;
+}
+
+#header h1 {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+#header .container {
+  position: relative;
+  z-index: 10;
+}
+
+#header .lead {
+  letter-spacing: 0.1em;
+}
+
+.navbar-inner {
+  background: #fbfbfb !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.navbar.affix .navbar-inner {
+  background: #fff !important;
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1) !important;
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1) !important;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.1) !important;
+}
+
+.navbar .nav .active a {
+  color: #333 !important;
+  text-decoration: none;
+  background-color: transparent !important;
+  font-weight: bold;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.download {
+  margin: 10px 0px;
+}
+
+.download .btn {
+  padding: 15px 20px;
+  font-size: 24px;
+}
+
+#header-chart {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 20px;
+  left: 50%;
+  margin-left:-20px;
+}
+
+.sidenav.affix {
+  top: 70px;
+  position: fixed;
+}
+
+.sidenav.affix {
+  width: 190px;
+}
+
+
+section {
+  padding-top: 30px;
+}
+
+.sidebar {
+  padding-top: 70px;
+}
+
+.sidebar .nav-list li.active a {
+  color: #fff;
+  background-color: #262626;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.sidebar .nav-list li a {
+  color: #555;
+}
+
+@media (min-width: 1200px) {
+  .sidenav.affix {
+    width: 240px;
+  }
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+  .sidenav.affix {
+    width: 136px;
+  }
+  #header {
+    margin-top: -20px;
+    padding: 20px 20px;
+  }
+
+  body.sub #header {
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  #header {
+    padding: 20px 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+  }
+
+  body.sub #header {
+    padding: 20px 20px;
+  }
+
+  .sidenav.affix {
+    position: static;
+    width: 100%;
+  }
+
+  .navbar p.navbar-text {
+    display: none;
+  }
+
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
